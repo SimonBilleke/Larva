@@ -9,7 +9,7 @@ new MessageEmbed()
 const Invalid = (author) =>
 new MessageEmbed()
     .setTitle('⚠️ Cantidad invalida.')
-    .setDescription(`${author} introduce una cantidad valida. \n Utilizando el comando: +purga <cantidad>`)
+    .setDescription(`${author} introduce una cantidad valida. \n Utilizando el comando: +purge <cantidad>`)
     .setColor('FFE90F');
 
 module.exports = {
